@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:profile/mainPage.dart';
+import 'package:profile/profile2.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 
-class MyProfile extends StatelessWidget {
-  MyProfile({Key key}) : super(key: key);
+class Profile extends StatelessWidget {
+ Profile ({Key key}) : super(key: key);
 
   var sizeBox = 14.0;
 
@@ -41,7 +44,7 @@ class MyProfile extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "วชิราภรณ์ สุพัตรา",
+                        "วชิราภรณ์ มาระวงค์\nสุพัตรา แสงสาย",
                         style: bulletStyle,
                       ),
                     ),
@@ -50,7 +53,7 @@ class MyProfile extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(50.0),
                     child: Image.asset(
-                      'assets/imges/profile.jpg',
+                      'assets/imges/mew.jpg',
                       height: 180.0,
                     ),
                   ),
@@ -73,17 +76,18 @@ class MyProfile extends StatelessWidget {
                       style: contentBulletStyle,
                     ),
                   ),
+                 
                   ListTile(
                     leading: Icon(Icons.arrow_forward),
                     title: Align(
                       child: new Text(
-                        'วิทยาลัยเทคนิคศรีสะเกษ',
+                        ' วิทยาลัยเทคนิคศรีสะเกษ',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1.8, 0),
                     ),
                   ),
-                  ListTile(
+                         ListTile(
                     leading: Icon(Icons.arrow_forward),
                     title: Align(
                       child: new Text(
@@ -115,22 +119,13 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.person),
                     title: Align(
                       child: new Text(
-                        'www.facebook.com/numvarn',
+                        'www.facebook.com/Mew.wachiraporn1999\nwww.facebook.com/bam.suphattra/',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
                     ),
                   ),
-                  ListTile(
-                    leading: Icon(Icons.web),
-                    title: Align(
-                      child: new Text(
-                        'www.comsci-sskru.com',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
+                  
                   ListTile(
                     leading: Icon(Icons.email),
                     title: Align(
@@ -153,7 +148,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.arrow_forward),
                     title: Align(
                       child: new Text(
-                        'อาจารประจำสาขาวิชาวิทยาการคอมพิวเตอร์,\n\nคณะศิลปศาสตร์และวิทยาศาสตร์,\n\nมหาวิทยาลัยราชภัฏศรีสะเกษ',
+                        'ฝึกงานการไฟฟ้าอุทุมพรพิสัย',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1.8, 0),
@@ -172,56 +167,14 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.developer_board),
                     title: Align(
                       child: new Text(
-                        'เชี่ยวชาญการเขียนโปรแกรมด้วย Python',
+                        'ลงโปรแกรม Adobe',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
                     ),
                   ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.developer_board),
-                    title: Align(
-                      child: new Text(
-                        'เชี่ยวชาญการการพัฒนาเว็บแอพพลิเคชั่นด้วย Django Framework',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.developer_board),
-                    title: Align(
-                      child: new Text(
-                        'การวิเคราะห์ประมวลผลข้อมูลขนาดใหญ่ด้วย Python',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.developer_board),
-                    title: Align(
-                      child: new Text(
-                        'การพัฒนาระบบงานเว็บเชอร์วิสด้วย Django Rest Framework',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
-                  SizedBox(height: sizeBox),
-                  ListTile(
-                    leading: Icon(Icons.developer_board),
-                    title: Align(
-                      child: new Text(
-                        'การพัฒนาโมบายแอพพลิเคชันด้วย Flutter',
-                        style: contentStyle,
-                      ),
-                      alignment: Alignment(-1, 0),
-                    ),
-                  ),
+                  
+                 
                 ],
               ),
             ),

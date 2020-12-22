@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:profile/mainPage.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 
-class MyProfile extends StatelessWidget {
-  MyProfile({Key key}) : super(key: key);
+class Profile1 extends StatelessWidget {
+  Profile1 ({Key key}) : super(key: key);
 
   var sizeBox = 14.0;
 
